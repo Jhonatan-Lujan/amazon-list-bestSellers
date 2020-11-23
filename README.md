@@ -20,5 +20,5 @@ After run the test ```Headphones-list.spec.js``` a JSON file with all the produc
 For sure this can be executed headless 
 
 ```
-npx cypress run
+npx cypress run --spec .\cypress\integration\amazon\*.spec.js
 ```
